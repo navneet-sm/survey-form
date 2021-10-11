@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="mystyle.css"
+        <header>
+            <h1 id="title">Developer Survey</h1>
+        </header>
+    </head>
+    <body>
+        <p id="description">Fill in the details below to improve the developer community.</p>
+        <form id="survey-form">
+        <div class="input-headings">
+            <label for="name" id="name-label">Name</label>
+                <input id="name" class="form-inputs" type="text" name="name" placeholder="John Doe" required>
+                <br>
+
+            <label for="email" id="email-label">E-mail</label>
+                <input id="email" class="form-inputs" type="email" name="email" placeholder="johndoe@example.com" required>
+                <br>
+
+            <label for="number" id="number-label">Age</label>
+                <input id="number" class="form-inputs" type="number" name="number" placeholder="18" min="18" max="100" required>
+                <br>
+
+            <label for="dropdown" id="language">Select Language</label>
+                <select id="dropdown" class="form-inputs">
+                    <option value="Python">Python</option>
+                    <option value="Java">Java</option>
+                    <option value="C/C++">C/C++</option>
+                    <option value="R">R</option>
+                    <option value="MATLAB">MATLAB</option>
+                    <option value="Ruby">Ruby</option>
+                    <option value="HTML/CSS">HTML/CSS</option>
+                    <option value="Javascript">Javascript</option>
+                </select>
+        <br>
+        <br>
+
+        <label for="ide" id="ide"> <b>IDE/Text Editor of your choice</b></label>
+        <br>
+        <br>
+        <input id="ide" name="ide" type="radio" id="atom" value="Atom">
+        <label for="ide">Atom</label>
+        <br>
+
+        <input id="ide" name="ide" type="radio" id="sublime-text" value="Sublime Text" >
+        <label for="ide">Sublime Text</label>
+        <br>
+
+        <input id="ide" name="ide" type="radio" id="vsc" value="Visual Studio Code">
+        <label for="ide">Visual Studio Code</label>
+        <br>
+
+        <input id="ide" name="ide" type="radio" id="pycharm" value="Pycharm">
+        <label for="ide">Pycharm</label>
+        <br>
+
+        <input id="ide" name="ide" type="radio" id="spyder" value="Spyder">
+        <label for="ide">Spyder</label>
+        <br>
+
+        <input id="ide" name="ide" type="radio" id="other" value="Atom">
+        <label for="ide">Other</label>
+        <br>
+        <br>
+
+        <label for="os"><b>Operating System of your choice</b></label>
+        <br>
+        <br>
+        
+        <input id="checkbox" type="checkbox" name="os" value="Microsoft Windows">
+        <label for="checkbox">Microsoft Windows</label>
+        <br>
+        
+        <input id="checkbox" type="checkbox" name="os" value="Mac OS">
+        <label for="checkbox">Mac OS</label>
+        <br>
+        
+        <input id="checkbox" type="checkbox" name="os" value="Linux">
+        <label for="checkbox">Linux</label>
+        <br>
+        
+        <input id="checkbox" type="checkbox" name="os" value="Other">
+        <label for="checkbox">Other</label>
+        <br>
+        <br>
+        
+        <label class="comments-section" id="textarea">Additional Comments</label>
+        <br>
+        <br>
+        
+        <textarea id="textarea" name="comments" rows="6" cols="60">
+        </textarea>
+        <br>
+        <br>
+        
+        <input id="submit" type="submit">
+        </div>
+        </form>
+    </body>
+</html>
